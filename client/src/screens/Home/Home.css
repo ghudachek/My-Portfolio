@@ -1,0 +1,13 @@
+.home {
+  justify-content: right;
+  margin-top: 10vh;
+  margin-left: 60vw;
+  width: 20vw;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #9d7446;
+}
+.profile-pic {
+  width: 300px;
+  margin-left: 75vw;
+}

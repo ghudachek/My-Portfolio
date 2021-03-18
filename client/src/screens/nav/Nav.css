@@ -1,4 +1,28 @@
-.nav{
+.nav {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #9d7446;
+  color: white;
+  box-shadow: 0px 0px 15px #6e5437;
+  z-index: 2;
+}
+.links-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 30vw;
+  margin-left: 30vw;
+  padding: 1vw;
+}
+a.nav-link {
+  padding: 10px;
+  margin: 10px;
+  order: 2;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
 }

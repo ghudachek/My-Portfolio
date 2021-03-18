@@ -1,11 +1,12 @@
 import React from "react";
 import Layout from "../layout/Layout";
-const Work = () => {
+
+const Contact = () => {
   return (
     <Layout>
-      <div>My Work</div>
+      <div>Contact Me</div>
     </Layout>
   );
 };
 
-export default Work;
+export default Contact;

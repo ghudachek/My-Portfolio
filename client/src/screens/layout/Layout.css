@@ -1,0 +1,19 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  background-image: url("https://i.imgur.com/IsUlmPJ.jpg");
+  border: none;
+  background-position: right;
+  background-size: cover;
+  height: 200vh;
+  width: 70vw;
+  z-index: 1;
+}
+.layout {
+  background-color: #080705;
+  background-position: right;
+  height: 200vh;
+  z-index: -1;
+}

@@ -1,9 +1,9 @@
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
-import Home from './screens/Home/Home'
-import AboutMe from './screens/AboutMe/AboutMe'
-import Work from './screens/Work/Work'
-
+import Home from "./screens/Home/Home";
+import AboutMe from "./screens/AboutMe/AboutMe";
+import Work from "./screens/Work/Work";
+import Contact from "./screens/Contact/Contact";
 function App() {
   return (
     <Switch>
@@ -16,7 +16,10 @@ function App() {
       <Route path="/work">
         <Work />
       </Route>
+      <Route path="/contact">
+        <Contact />
+      </Route>
     </Switch>
   );
-
+}
 export default App;
